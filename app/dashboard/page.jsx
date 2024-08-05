@@ -1,7 +1,7 @@
 import React from "react";
 
-const DahsboardLayout = ({ children }) => {
-  return <div>{children}</div>;
+const Page = () => {
+  return <div></div>;
 };
 
-export default DahsboardLayout;
+export default Page;

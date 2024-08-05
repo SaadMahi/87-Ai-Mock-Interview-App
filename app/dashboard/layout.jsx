@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "./_components/Header";
 
-const layout = () => {
-  return <div>layout</div>;
+const DahsboardLayout = ({ children }) => {
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  );
 };
 
-export default layout;
+export default DahsboardLayout;
